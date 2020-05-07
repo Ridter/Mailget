@@ -155,7 +155,7 @@ def maimailogin(pa,phone,password):
         session = requests.session()
         login_data={
             'm': phone,
-            'p': 'qazxsw23',
+            'p': password,
             'to':'https://maimai.cn/im/',
             'pa': pa
         }
